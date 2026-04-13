@@ -1,0 +1,61 @@
+body{
+    color:rgb(239, 237, 199);
+
+    background-color:rgb(141, 164, 140) ;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+ul{
+    display: flex;
+
+    justify-content: space-between;
+
+    list-style-type: circle;
+
+    align-items: center;
+
+    padding: 9px;
+
+}
+
+a{
+    color:antiquewhite;
+
+    text-decoration: none;
+}
+
+
+img{
+    width: 150px;
+
+    height: 150px;
+
+    border: 10px solid rgb(151, 164, 127);
+
+    border-radius: 10%;
+
+}
+
+.imagem {
+    
+    text-align: left;
+}
+
+h1{
+    text-align: left;
+
+}
+nav a:houver {
+
+    color:antiquewhite
+}
+
+.esquerda{
+
+    border: 10px solid rgb(147, 185, 152);
+
+    width: 190px
+    
+}
