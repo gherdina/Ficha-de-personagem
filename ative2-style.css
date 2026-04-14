@@ -1,10 +1,41 @@
 body {
 
+    position: relative;
+
+    top: 400px;
+
+}
+
+body {
+
     text-align: center;
-    
 }
 
 body {
 
     background-color: rgb(219, 244, 252);
+}
+
+ body main form {
+
+    border: 5px dashed rgb(242, 251, 255);
+    
+    border-width: 10px;
+
+    display: inline-block;
+
+}
+
+.data-nascimento {
+
+
+}
+
+body main {
+
+    border: 5px solid rgb(255, 255, 255);
+
+    border-width: 10px;
+
+    display: inline-block;
 }
