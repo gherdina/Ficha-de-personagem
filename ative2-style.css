@@ -2,7 +2,7 @@ body {
 
     position: relative;
 
-    top: 400px;
+    top: 325px;
 
 }
 
@@ -13,29 +13,78 @@ body {
 
 body {
 
-    background-color: rgb(219, 244, 252);
+    background-image: url(image.png);
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    image-rendering: auto;
+
+    margin: 0;
+
+    height: 100vh;
+
+    background-attachment: fixed;
+
 }
 
  body main form {
 
-    border: 5px dashed rgb(242, 251, 255);
+    border: 5px dashed rgb(226, 242, 248);
     
     border-width: 10px;
 
     display: inline-block;
 
-}
-
-.data-nascimento {
 
 
 }
+
+
 
 body main {
 
-    border: 5px solid rgb(255, 255, 255);
+    border: 10px solid rgb(254, 254, 254);
 
     border-width: 10px;
 
     display: inline-block;
+
+    border-radius: 5%;
 }
+
+body main form{
+
+    display: inline-block;
+
+    position: relative;
+
+    padding-bottom: 5px;
+
+    width: 200px;
+
+    height: 300px;
+
+    background-color: rgb(255, 255, 255);
+
+    padding: 10px;
+}
+
+
+.titulo {
+
+color: rgb(147, 172, 188);
+
+font-size: 25px;
+
+}
+
+.button {
+
+background-color: black;
+
+}
+
