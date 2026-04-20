@@ -53,7 +53,7 @@ body main {
 
     display: inline-block;
 
-    border-radius: 5%;
+    border-radius: 4%;
 }
 
 body main form{
@@ -64,13 +64,14 @@ body main form{
 
     padding-bottom: 5px;
 
-    width: 200px;
+    width: 205px;
 
-    height: 280px;
+    height: 408px;
 
     background-color: rgb(255, 255, 255);
 
     padding: 10px;
+
 }
 
 
@@ -82,11 +83,6 @@ font-size: 25px;
 
 }
 
-.button {
-
-background-color: black;
-
-}
 
 p strong em {
 
@@ -120,7 +116,7 @@ height: 100%;
 html body {
 
 
-top: 200px;
+top: 150px;
 
 
 }
@@ -152,6 +148,7 @@ border-radius: 5%;
 border-width: 2px;
 
 height: 25px;
+
 }
 
 .confirmar-senha:hover {
@@ -204,5 +201,20 @@ button:hover {
 cursor: pointer;
 
 color: black;
+
+
+}
+
+body main form {
+
+display: flex; 
+
+flex-direction: column;
+
+gap: 15px; 
+
+text-align: center;
+
+color:  rgb(76, 76, 76);
 
 }
