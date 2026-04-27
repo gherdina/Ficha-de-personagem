@@ -1,5 +1,6 @@
 
 
+/*
 body {
 
     position: relative;
@@ -12,12 +13,15 @@ justify-content: center;
 
 height: 200px; 
 
+
 }
 
 body {
 
     text-align: center;
 }
+    */
+
 
 body {
 
@@ -31,21 +35,23 @@ body {
 
     image-rendering: auto;
 
-    margin: 0;
-
     height: 100vh;
 
     background-attachment: fixed;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    min-height: 100vh;
 
 }
 
- body main div {
+div {
 
     border: 5px dashed rgb(226, 242, 248);
     
     border-width: 10px;
 
-    display: inline-block;
+    display: flex;
 
     padding: 30px;
 
@@ -53,20 +59,20 @@ body {
 
 
 
-body main {
+main {
 
     border: 10px solid rgb(254, 254, 254);
 
     border-width: 10px;
 
-    display: inline-block;
+    display: flex;
 
     border-radius: 4%;
 }
 
-body main div {
+div {
 
-    display: inline-block;
+    display: flex;
 
     position: relative;
 
@@ -93,7 +99,7 @@ font-size: 25px;
 
 
 
-html body {
+body {
 
 overflow-y: hidden;
 
@@ -103,7 +109,7 @@ height: 100%;
 }
 
 
-html body {
+body {
 
 
 top: 150px;
@@ -116,7 +122,7 @@ body main div {
 
 display: flex; 
 
-flex-direction: column;
+flex-direction: row;
 
 gap: 15px; 
 
@@ -126,7 +132,7 @@ color:  rgb(76, 76, 76);
 
 }
 
-html body {
+body {
 
 top: 350px;
 
